@@ -1,0 +1,79 @@
+html {
+    font-size: 16px;
+
+}
+
+.main {
+    position: relative;
+    top: 5.3125rem;
+}
+header {
+    position: fixed;
+    width: 100%;
+    border-bottom: solid 1px rgb(245, 180, 0);
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(179, 179, 179);
+    z-index: 10;
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.125rem;
+}
+
+header .mobile {
+    display: none;
+}
+
+.logo {
+    font-size: 1.75rem;
+    align-items: center;
+}
+
+.logo span {
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: relative;
+    bottom: 9px;
+}
+
+.logo img {
+    max-height: 2.75rem;
+    flex: 1;
+    position: relative;
+    top: 2.5px
+}
+
+header nav ul {
+    display: flex;
+    float: right;
+}
+
+nav li {
+    padding-left: 2.8rem;
+}
+
+/* width 610 nav breakpoint */
+
+
+.banner {
+    background-color: rgb(245, 180, 0);
+    height: 13rem;
+    width: 100%;
+}
+
+.banner, .banner-head, .banner-title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.banner-head {
+    height: 10rem;
+    background-color: rgb(179, 179, 179);
+}
